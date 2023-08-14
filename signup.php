@@ -19,7 +19,7 @@ if(isset($_POST['signup'])){
     $isInserted=mysqli_query($connect,$insert);
 
     if($insert){
-        header("location: signin.php");
+        header("location: index.php");
     }else{
         echo "Error Inserting";
     }
